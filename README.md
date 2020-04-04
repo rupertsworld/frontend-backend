@@ -58,7 +58,7 @@ In the `frontend/main.js` file, update the `serverUrl` variable once you know wh
 
 ### Some potential web hosts
 
-Here are some potential places to host your website. Google how to set up an account and get started hosting a static site and an API (off the top of my head, probably worth researching this to find what's right for you):
+Here are some potential places to host your website. Google how to set up an account and get started hosting a static site and an API. Note: this is all off the top of my head, probably worth researching this to find what's right for you.
 
 **Frontend**
 
