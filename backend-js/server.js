@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 // a cross-origin request, this code says "yup"
 app.options('*', cors(corsOptions));
 
-// When  the app receives a POST request (a request that's sending
+// When the app receives a POST request (a request that's sending
 // data), at the url '/hello' it will trigger this function
 app.post('/hello', cors(corsOptions), function (request, response) {
   // Extract the name from the { name: 'your name' } obj that's sent
