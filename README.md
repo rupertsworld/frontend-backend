@@ -44,9 +44,19 @@ Again, you should now get a response from the API server in your frontend (make 
 
 ## What if I want to deploy it on the web?
 
+To get this working on the web, you will need to update some of the URLs to point to the places you are hosting the frontend and the backend. This happens in two spots.
+
+### Change #1: CORS server address
+
 The only thing stopping this from working on the web right now is the CORS settings. CORS (Cross-Origin Resource Sharing) is a security measure implemented by browsers which stops your API being accessed by anyone but frontend domains you approve of. Right now, that's set to `http://localhost:1234` which is the address of the frontend server when it's running locally on your machine, so that your browser can send messages to the backend.
 
-Edit that URL in either of the server files to be the URL where you're hosting your frontend, and the code should work.
+Edit that URL in either of the server files to be the URL where you're hosting your frontend, and the code should work.\
+
+### Change #2: API URL requested from the frontend
+
+In the `frontend/main.js` file, update the `serverUrl` variable once you know where your server is located (you can get rid of the :3000 now, your production server should use its own port).
+
+### Some potential web hosts
 
 Here are some potential places to host your website. Google how to set up an account and get started hosting a static site and an API (off the top of my head, probably worth researching this to find what's right for you):
 
