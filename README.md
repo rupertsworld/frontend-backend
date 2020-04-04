@@ -78,6 +78,8 @@ Here are some potential places to host your website. Google how to set up an acc
 
 In this project, the frontend server is separated from the backend server. This doesn't have to be the case (it's not uncommon for a web server to both serve up the HTML for a website to a browser, and also be open to receive requests from that page in the browser).
 
-However, for this example, we're looking at having a frontend and an external API -- this might make sense if, for example, you are doing some heavy ML/other processor-intensive computing on the API side and don't want to clog up your web frontend server for other site visitors. It also means you can have a faster, more lightweight machine serving your frontend and a more beefy machine for your backend if you need that. There are also website hosts, such as Github Pages and Zeit Now, that are really only for static pages. Your frontend html/js/css files here can be uploaded straight to one of these, and still communicate with your API which can be hosted independently (say, using Heroku, or Google Cloud Compute/App Engine Flex).
+However, for this example, we're looking at having a frontend and an external API – this might make sense if, for example, you are doing some heavy ML/other processor-intensive computing on the API side and don't want to clog up your web frontend server for other site visitors. It also means you can have a faster, more lightweight machine serving your frontend and a more beefy machine for your backend if you need that. 
+
+There are also website hosts, such as Github Pages and Zeit Now, that are really only for static pages. Your frontend html/js/css files here can be uploaded straight to one of these, and still communicate with your API which can be hosted independently (say, using Heroku, or Google Cloud Compute/App Engine Flex).
 
 
