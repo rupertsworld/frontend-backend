@@ -2,7 +2,7 @@
 
 This codebase demos a basic web frontend that communicates with one of two backends. They are equivalent, with one written in Python (`backend-py`) and one in JavaScript using Node (`backend-js`). When you fire up the frontend in a browser, write your name in the textfield, and hit "Send to server!", a response fires back from the server saying "Hello [your name here]".
 
-Currently, this code is all set up to run only on a local machine. However, with one small tweak they can run on public internet servers.
+Currently, this code is all set up to run only on a local machine. However, with a small tweak they can run on public internet servers.
 
 ## How do I get it running?
 
