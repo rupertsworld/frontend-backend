@@ -48,7 +48,7 @@ To get this working on the web, you will need to update some of the URLs to poin
 
 ### Change #1: CORS server address
 
-The only thing stopping this from working on the web right now is the CORS settings. CORS (Cross-Origin Resource Sharing) is a security measure implemented by browsers which stops your API being accessed by anyone but frontend domains you approve of. Right now, that's set to `http://localhost:1234` which is the address of the frontend server when it's running locally on your machine, so that your browser can send messages to the backend.
+CORS (Cross-Origin Resource Sharing) is a security measure implemented by browsers which stops your API being accessed by anyone but frontend domains you approve of. Right now, that's set to `http://localhost:1234` which is the address of the frontend server when it's running locally on your machine, so that your browser can send messages to the backend.
 
 Edit that URL in either of the server files to be the URL where you're hosting your frontend, and the code should work.\
 
