@@ -14,7 +14,7 @@ In a terminal, run:
 frontend/start-server.sh
 ```
 
-Now navigate to http://localhost:1234 to see the site in action. You'll notice that nothing will happen (and you'll get an error in the browser console) if you hit the button. We need an API.
+Now navigate to http://localhost:1234 to see the site in action. You'll notice that if you hit the button nothing will happen (and you'll get an error in the browser console). We need an API.
 
 ### The backend (JavaScript)
 
