@@ -1,4 +1,4 @@
-# Basic Frontend/Backend Communication Demo
+# Basic Web Frontend/Backend Demo
 
 This codebase demos a basic web frontend that communicates with one of two backends. They are equivalent, with one written in Python (`backend-py`) and one in JavaScript using Node (`backend-js`). When you fire up the frontend in a browser, write your name in the textfield, and hit "Send to server!", a response fires back from the server saying "Hello [your name here]".
 
