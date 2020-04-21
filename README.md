@@ -11,7 +11,8 @@ Currently, this code is all set up to run only on a local machine. However, with
 In a terminal, run:
 
 ```
-frontend/start-server.sh
+cd frontend
+./start-server.sh
 ```
 
 Now navigate to http://localhost:1234 to see the site in action. You'll notice that if you hit the button nothing will happen (and you'll get an error in the browser console). We need an API.
